@@ -1,7 +1,6 @@
 import './style.css'
 import { AiFillGithub } from 'react-icons/ai'
 import { AiOutlineInstagram } from 'react-icons/ai'
-import { Link } from 'react-router-dom'
 export const Contact = () => {
 
   return (
