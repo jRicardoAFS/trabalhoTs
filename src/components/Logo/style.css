@@ -1,0 +1,25 @@
+
+.cad :link{
+  position: fixed;
+  font-size: 50pt;
+  margin-top: -30pt;
+  margin-left: 15pt;
+  opacity: 40%;
+  transition: 0.75s;
+  padding-right: 5pt;
+  color: #fff;
+}
+
+.cad :hover {
+  position: fixed;
+  opacity: 100%;
+  transition: 0.5s;
+  font-size: 60pt;
+  color: #fff;
+
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0% 100%;
+  background-repeat: no-repeat;
+ 
+ 
+}

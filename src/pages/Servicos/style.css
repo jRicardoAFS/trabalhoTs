@@ -1,0 +1,44 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.servicos{
+  color: white;
+  font-size: 130px;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  width:620px ;
+}
+.g{
+  color: #fff;
+  margin-top: 1vh;
+  font-size: 20px;
+  margin-left: 290px;
+}
+.f{
+  color: #fff;
+  margin-top:5vh ;
+  font-size: 40px;
+  margin-left: 12vw;
+
+}
+.pg{
+  display: flex;
+
+}
+
+.tudo{
+
+  position: relative;
+  left: -5vw;
+  transform: translatey(0px);
+  animation: aparicao 1s ease-in-out forwards, float 5s ease-in-out 0.75s infinite;
+  opacity: 0%;
+}
+@keyframes aparicao {
+  100% {
+    
+    left: 0;
+    opacity: 100%;
+
+  }
+}

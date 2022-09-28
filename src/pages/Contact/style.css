@@ -1,0 +1,57 @@
+
+.trabalhar {
+  text-align: center;
+  margin-top: 12vh;
+  font-size: 70px;
+}
+.endereco {
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 30px;
+}
+.telefone {
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 30px;
+}
+.email {
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 30px;
+}
+
+.git {
+  font-size: 40pt;
+}
+.insta {
+  font-size: 40pt;
+}
+.icons {
+  margin-top:30pt ;
+  display: flex;
+  justify-content: center;
+}
+.jn{
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 10pt;
+align-items: center;  
+
+}
+#tudo{
+  position: relative;
+  left: -5vw;
+  transform: translatey(0px);
+  animation: aparicao 1s ease-in-out forwards,
+    float 5s ease-in-out 0.75s infinite;
+  opacity: 0%;
+}
+@keyframes aparicaoCont {
+    100% {
+      left: 0;
+      opacity: 100%;
+    }
+  
+  
+}

@@ -1,0 +1,51 @@
+header {
+  width: 100vw;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-right: 17px;
+  border-radius: 10px;
+}
+
+.menu ul li {
+  display: flex;
+  display: inline;
+  margin-left: 50px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+  color: #fff;
+  opacity: 20%;
+  transition: 0.7s;
+}
+.menu ul li a:hover {
+  opacity: 100;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 25px;
+  color: white;
+
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0% 100%;
+  background-repeat: no-repeat;
+  transition: 500ms; 
+
+  /* background:
+  linear-gradient(to right, white white),
+  linear-gradient(to right, white, black , white);
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0% 100%;
+background-repeat: no-repeat;
+transition: background-size 500ms; */
+}

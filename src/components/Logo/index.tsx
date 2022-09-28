@@ -1,10 +1,13 @@
-import Img from '../../assets/3.png'
-export const Logo =()=>{
-  return(
+import { Link } from "react-router-dom"
+import {IoCubeOutline} from 'react-icons/io5'
+import './style.css'
+export const Logo = () => {
+  return (
     <>
-    <img src={}alt="" />
+      <div className="cad">
+        <Link to='/'><IoCubeOutline/></Link>
+      </div>
     </>
-
-
   )
+
 }
